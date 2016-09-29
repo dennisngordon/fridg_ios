@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		953140041D98F3B300C60615 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953140031D98F3B300C60615 /* SignUpViewController.swift */; };
 		9548365A1D93DA0200A45A55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954836591D93DA0200A45A55 /* AppDelegate.swift */; };
 		9548365C1D93DA0200A45A55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548365B1D93DA0200A45A55 /* ViewController.swift */; };
 		9548365F1D93DA0200A45A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9548365D1D93DA0200A45A55 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		954836641D93DA0200A45A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954836621D93DA0200A45A55 /* LaunchScreen.storyboard */; };
 		9548366F1D93DA0200A45A55 /* fridg_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548366E1D93DA0200A45A55 /* fridg_iosTests.swift */; };
 		9548367A1D93DA0200A45A55 /* fridg_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954836791D93DA0200A45A55 /* fridg_iosUITests.swift */; };
+		95E1B6A81D9C322C00FCF885 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E1B6A71D9C322C00FCF885 /* MainPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		953140031D98F3B300C60615 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		954836561D93DA0200A45A55 /* fridg_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fridg_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		954836591D93DA0200A45A55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9548365B1D93DA0200A45A55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		954836751D93DA0200A45A55 /* fridg_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fridg_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		954836791D93DA0200A45A55 /* fridg_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fridg_iosUITests.swift; sourceTree = "<group>"; };
 		9548367B1D93DA0200A45A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E1B6A71D9C322C00FCF885 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				954836601D93DA0200A45A55 /* Assets.xcassets */,
 				954836621D93DA0200A45A55 /* LaunchScreen.storyboard */,
 				954836651D93DA0200A45A55 /* Info.plist */,
+				953140031D98F3B300C60615 /* SignUpViewController.swift */,
+				95E1B6A71D9C322C00FCF885 /* MainPageViewController.swift */,
 			);
 			path = fridg_ios;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E1B6A81D9C322C00FCF885 /* MainPageViewController.swift in Sources */,
+				953140041D98F3B300C60615 /* SignUpViewController.swift in Sources */,
 				9548365C1D93DA0200A45A55 /* ViewController.swift in Sources */,
 				9548365A1D93DA0200A45A55 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +490,7 @@
 				954836801D93DA0200A45A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		954836811D93DA0200A45A55 /* Build configuration list for PBXNativeTarget "fridg_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				954836831D93DA0200A45A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		954836841D93DA0200A45A55 /* Build configuration list for PBXNativeTarget "fridg_iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				954836861D93DA0200A45A55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
